@@ -9,7 +9,7 @@
                     <i class="bi bi-person-rolodex"></i> Contacts Information
                 </div>
                 <div class="card-body">
-                    <p class="small text-center text-danger">The data is dummy and it will auto refresh 2 times everyday. Please, don't insert the real data!</p>
+                    <p class="small text-center text-danger">all data is dummy and will be refreshed 2 times a day. Please don't use real data!</p>
                     <br>
                     <livewire:contact-index></livewire:contact-index>
                 </div>
