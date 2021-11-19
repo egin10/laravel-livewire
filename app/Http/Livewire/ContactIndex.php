@@ -50,6 +50,12 @@ class ContactIndex extends Component
     public function handleMessage($response)
     {
         session()->flash('message', 'Contact '. $response['contact']['name'] .' has been '. $response['status'] .'!');
+        $this->resetPage();
+    }
+
+    public function updatingPaginate()
+    {
+        $this->resetPage();
     }
 
     public function handleCancelUpdate()
